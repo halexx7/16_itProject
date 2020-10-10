@@ -1,0 +1,54 @@
+.standards {
+    background-color: $bg_gray;
+}
+
+.standards-top {
+    padding: 6rem 0;
+}
+
+.standards-top__title {
+    margin-bottom: 40px;
+    max-width: 424px;
+}
+
+.standards-top__text {
+    margin-bottom: 30px;
+    max-width: 489px;
+}
+
+.standards-top__link {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: $blue;
+}
+
+.standards-line {
+    height: 1px;
+    background: $line_grey;
+}
+
+.standards-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.standards-bottom__item {
+    width: 104px;
+    padding: 4.38rem 0;
+}
+
+.standards-bottom__number {
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 3.3rem;
+    color: $black;
+
+    &::before {
+        content: url(../img/web-programming.svg);
+
+        margin-right: 1.25rem;
+    }
+}
+
+

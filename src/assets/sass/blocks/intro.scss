@@ -1,0 +1,36 @@
+.intro {
+    padding-top: 20rem;
+    position: relative;
+
+    height: 900px;
+    background-image: url(../img/intro_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro__text {
+    margin-bottom: 1.25rem;
+
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: center;
+    color: $white;
+}
+
+.intro__title {
+    max-width: 829px;
+    margin-bottom: 3.12rem;
+
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: center;
+    color: $white;
+}

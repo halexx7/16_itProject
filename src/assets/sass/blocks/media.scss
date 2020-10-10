@@ -1,0 +1,149 @@
+.media {
+    padding-top: 4.38rem;
+//    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), u;
+
+    background: url(../img/media_bg.png) top center no-repeat;
+    background-size: 100%;
+}
+
+.media-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-top__title {
+    margin-bottom: 1.87rem;
+
+    color: $white;
+}
+
+.media-top__text {
+    margin-bottom: 4.4rem;
+
+    color: $white;
+}
+
+.media-top__video {
+    max-width: 970px;
+
+    position: relative;
+
+}
+
+.media-top__img {
+    width: 100%;
+}
+
+.media-top__btn {
+    padding: 1.25rem 2.5rem;
+
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+
+
+    background-color: transparent;
+    border: 1px solid $white;
+    border-radius: 200px;
+
+    position: absolute;
+    top: 180px;
+    left: 360px;
+
+    &:hover {
+        border: 1px solid $blue;
+    }
+}
+
+.play__text {
+    margin-left: 1.3rem;
+
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.56rem;
+    color: $white;
+}
+
+.media__line {
+    height: 1px;
+    margin: 5.3rem 0;
+
+    background-color: $line_grey;
+    opacity: 0.5;
+}
+
+.media-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-bottom__text {
+    margin: 1.25rem 0 1.88rem 0;
+}
+
+.media-form {
+    position: relative;
+
+
+}
+
+.form-email {
+    width: 489px;
+    padding: 1rem 0 1rem 2rem;
+
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: $shadow_btn;
+    border-radius: $radius_xl;
+
+    outline: none;
+
+    &::placeholder {
+        font-weight: 400;
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        color: $gray_text;
+    }
+}
+
+.form__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    border: none;
+    border-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.media-bottom__text--min {
+    padding: 2.2rem 0 5.3rem;
+
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    text-align: center;
+    color: $gray_text;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
